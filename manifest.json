@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Zhihu Chrome Extension",
+  "description": "Zhihu auto reply tool",
+  "version": "1.0",
+  "icons": {
+    "128": "128.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["alarms", "storage", "notifications"],
+  "host_permissions": ["https://www.zhihu.com/*"]
+}
